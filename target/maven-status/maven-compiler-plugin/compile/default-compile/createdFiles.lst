@@ -1,0 +1,16 @@
+org\com\intuit\messenger\model\Tweet.class
+org\com\intuit\messenger\resources\UserResource$1.class
+org\com\intuit\messenger\model\Feed.class
+org\com\intuit\messenger\resources\LoginResource.class
+org\com\intuit\messenger\util\HibernateUtil.class
+org\com\intuit\messenger\dao\UserDao.class
+org\com\intuit\messenger\resources\LoginResource$1.class
+org\com\intuit\messenger\resources\TweetResource$1.class
+org\com\intuit\messenger\model\User.class
+org\com\intuit\messenger\resources\MyResource.class
+org\com\intuit\messenger\dao\FeedDao.class
+org\com\intuit\messenger\dao\TweetDao.class
+org\com\intuit\messenger\resources\TweetResource.class
+org\com\intuit\messenger\dao\LoginDao.class
+org\com\intuit\messenger\service\TweetService.class
+org\com\intuit\messenger\resources\UserResource.class

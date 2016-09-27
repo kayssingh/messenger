@@ -1,0 +1,10 @@
+Steps to run the project
+-----------------------
+1. Import the project in Eclipse IDE
+2. Run the database.script into relation DB (oracle) to create tables and insert test data into it
+3. Build the project using Maven and deploy it in Apache Tomcat
+4. Go to URL : http://localhost:8080/messenger/
+5. Enter Test Username & Password (sonia/pass123)
+6. Click Submit button
+7. You will be directed to link : http://localhost:8080/messenger/webapi/twitter/feeds
+8. Above link will show you the list of tweets posted by users followed by 'sonia'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+ <class name="org.com.intuit.messenger.model.Tweet" table="TWEETS">
+        <id name="tweetId" type="long">
+            <column name="TWEET_ID" />
+            <generator class="sequence" />
+        </id>
+        <property name="tweetDesc" type="java.lang.String">
+            <column name="TWEET_DESC" />
+        </property>
+        <property name="authorId" type="long">
+            <column name="AUTHOR_ID" />
+        </property>
+        <property name="creationDate" type="java.util.Date">
+            <column name="CREATION_DATE" />
+        </property>
+    </class>
+</hibernate-mapping>
